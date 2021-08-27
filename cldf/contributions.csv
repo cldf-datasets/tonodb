@@ -1,0 +1,88 @@
+ID,Contributor,Glottocode,LanguageVariety,Family,Area
+1,Kristoffersen (2007),nort3160,Proto-Nordic,Indoeuropean,Europe
+2,Kingston (2011),yabe1254,Yabem,Austronesian,Papunesia
+3,Kingston (2011),khmu1256,Kammu,Austroasiatic,Asia
+4,Kingston (2011),east2563,Phan Rang Cham,Austronesian,Asia
+5,Kingston (2011),viet1252,Vietnamese,Austroasiatic,Asia
+6,Yip (2002),sind1278,Punjabi,Indoeuropean,Asia
+7,"Hombert, Ohala, Ewan (1979)",nucl1310,Burmese,Sino-Tibetan,Asia
+8,"Hombert, Ohala, Ewan (1979)",lahu1253,Lahu,Sino-Tibetan,Asia
+9,"Hombert, Ohala, Ewan (1979)",midd1344,Middle Chinese,Sino-Tibetan,Asia
+10,Julian (2010),cher1273,Cherokee,Iroquian,North America
+11,Kingston (2011),atha1247,Proto-Athabaskan (tonal dialects) group one,Athabaskan-Eyak-Tlingit,North America
+12,Kingston(2011),atha1247,Proto-Athabaskan (tonal dialects) group two,Athabaskan-Eyak-Tlingit,North America
+13,Kingston(2011),nort3160,Central Scandinavian,Indoeuropean,Europe
+14,"Ebrey, Edmondson, Gregerson, and Gregory (1993)",cemu1238,Cem,Austronesian,Papunesia
+15,"Kingston(2011), Sun (2003)",utsa1239,Lhasa Tibetan,Sino-Tibetan,Asia
+16,Sun (2003),baim1244,Baima Tibetan,Sino-Tibetan,Asia
+17,Kingston(2011),uuuu1243,U,Austroasiatic,Asia
+18,Kingston(2011),lugb1240,Western Lugbara,Central Sudanic - Nilo-Saharan,Africa
+19,Jacques (2016),khal1275,Khaling,Sino-Tibetan,Asia
+20,Hyslop (2009),kurt1248,Kurtöp,Sino-Tibetan,Asia
+21,Julian (2010),moha1257,Proto-Mohawk-Oneida,Iroquian,North America
+22,Howe (2005),heil1246,Heiltsuk,Wakashan,North America
+23,Kiessling (2000),iraq1241,Iraqw,Afroasiatic,Africa
+24,Kiessling (2003),podo1243,Podoko,Afroasiatic,Africa
+25,Rassmussen (2018),bila1255,Bila,Niger-Congo,Africa
+26,Rassmussen (2018),,Bantu D30,Niger-Congo,Africa
+27,Hyslop (2010),dzon1239,Dzongkha,Sino-Tibetan,Asia
+28,Dimmendaal (1978),kohu1244,Kohumono,Atlantic-Kongo,Africa
+29,"Bang, Sonderegger, Kang, Clayards and Yoon (2018)",kore1280,Korean,Koreanic,Asia
+30,Weidert (1987),pwon1235,Phlong,Sino-Tibetan,Asia
+31,Ratliff (2016),hmon1333,White Hmong,Hmong-Mien,Asia
+32,Ratliff (2016),hopi1249,Hopi,Uto-Aztecan,North America
+33,Weidert (1987),mobw1234,Blimaw,Sino-Tibetan,Asia
+34,Ratliff (2016),huuu1240,Hu,Austroasiatic,Asia
+35,Ratliff (2016),esto1258,Estonian,Uralic,Europe
+36,Ratliff (2016),benc1235,Gimira,Omotic,Africa
+37,Kingston (2011),sout2746,Nakhon Si Thammarat Thai,Kra-dai,Asia
+38,Kingston (2011),,Yung Chiang Kam,Kra-Dai?,Asia
+39,Kingston (2011),shan1277,Shan,Kra-Dai,Asia
+40,Kingston (2011),,Szu ta Chai,,Asia
+41,Gussenhoven (2000),midd1319,Central Franconian,Indoeuropean,Europe
+42,Rivierre (1993),newc1243,Central North New Caledonian languages,Austronesian,Papunesia
+43,Rivierre (1993),extr1245,Far South New Caledonian langauges,Austronesian,Papunesia
+44,Sagart (2019),taik1256,Kra-Dai languages,kra-dai,Asia
+45,,samo1305,Samoan,Austronesian,Papunesia
+46,Iosad (2016),dani1285,Zealand Danish,Indoeuropean,Europe
+47,Iosad (2016),dani1285,East Slesvig,Indoeuropean,Europe
+48,Iosad (2015),scot1245,Scottish gaelic (Bernera),Indoeuropean,Europe
+49,Ben Hermans and Marc van Oostendorp (2006),limb1263,Limburgish,Indoeuropean,Europe
+50,Teeranon (2012),tian1238,T’ientsin,Sino-Tibetan,Asia
+51,Thurgood (1993),tsat1238,Utsat,Austronesian,Asia
+52,Abramsont and Donna M. Erickson (1992),thai1261?,Proto-Tai,Kra-dai,Asia
+53,Kortlandt (2010),slav1255,Late Proto-Slavic,Indoeuropean,Europe
+54,"Vajda, E. (2010).",yeni1252,Pre-proto-Yeniseian,Na-Dene,Asia
+55,Weidert (1987),bwek1238,Chitabu (bwe),Sino-Tibetan,Asia
+56,Pappas (2007),chey1247,Cheyenne,Algic,North America
+57,Gathercole (1983),kick1244,Kickapoo,Algic,North America
+58,Tesfaye and Wedekind (1994),boro1277,Shinasha,Omotic,Africa
+59,Weidert (1987),pwoo1239,Pwo Karen,Sino-Tibetan,Asia
+60,Weidert (1987),sgaw1245,Sgaw Karen,Sino-Tibetan,Asia
+61,Kortlandt (2010),prus1238,West Baltic (Prussian,Indoeuropean,Europe
+62,Caplow (2009),,Tokpe Gola (Tibetan),Sino-Tibetan,Asia
+63,Sun (2003),zhuo1234,Zhuoni Tibetan,Sino-Tibetan,Asia
+64,Sun (2003),,Tiebu Tibetan,Sino-Tibetan,Asia
+65,Sun (2003),cent2346,Rikeze Tibetan,Sino-Tibetan,Asia
+66,Sun (2003),,Zhibo Tibetan,Sino-Tibetan,Asia
+67,Dwyer (2008),tuuu1240,Mongour,Mongolic,Asia
+68,Kamholz (2014),raja1258,Proto-Maˈya,Austronesian,Papunesia
+69,Kamholz (2014),matb1237,Magey Matbat,Austronesian,Papunesia
+70,Kamholz (2014),morm1235,Moor,Austronesian,Papunesia
+71,Kamholz (2014),ires1239,Yerisiam,Austronesian,Papunesia
+72,Kortlandt (2010),east2280,East Baltic (Latvian and Lithuanian),Indoeuropean,Europe
+73,Kortlandt (2010),latv1249,Latvian,Indoeuropean,Europe
+74,Kortlandt (2010),lith1251,Lithuanian,Indoeuropean,Europe
+75,Kortlandt (2010),auks1239,Auktaitian dialects of Lithuanian,Indoeuropean,Europe
+76,Arnold (2016),waig1244,Ambel,Austronesian,Papunesia
+77,Yip(2002),can1236,Cantonese,Sino-Tibetan,Asia
+78,Yip (2002),nupe1254,Nupe,Atlantic-Kongo,Africa
+79,Picard,arap1274,Arapaho,Algic,North America
+80,Mithun (2001),moha1258,Mohawk,Iroquian,North America
+81,Mithun (2001),cadd1256,Caddo,Caddoan,North America
+82,Mithun (2001),kere1287,Keres,Keresan,North America
+83,Mithun (2001),take1257,Takelma,Isolate,North America
+84,Mithun (2001),quil1240,Quileute,Chimakuan,North America
+85,Weidert (1987),geba1237,Geba,Sino-Tibetan,Asia
+86,Mithun (2001),coas1300,Coast Tsimshian,Tsimshian,North America
+87,Mithun (2001),tlin1245,Sanya-Henya Tlingit,Athabaskan-Eyak-Tlingit,North America
