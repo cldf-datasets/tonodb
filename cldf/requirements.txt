@@ -2,7 +2,7 @@ appdirs==1.4.4
 bs4==0.0.1
 certifi==2021.5.30
 cldfbench==1.7.2
--e git+git@github.com:cldf-datasets/tonodb.git@5c01ead2383d283aea68f09ed2fccabd33a95cdd#egg=cldfbench_tonodb
+-e git+git@github.com:cldf-datasets/tonodb.git@f867b7d01ba6205aba0d9fcb6e908f27255171bf#egg=cldfbench_tonodb
 cldfcatalog==1.3.2
 clldutils==3.9.0
 colorlog==5.0.1

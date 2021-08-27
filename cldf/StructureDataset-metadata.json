@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/tonodb",
             "rdf:type": "prov:Entity",
-            "dc:created": "5c01ead",
+            "dc:created": "f867b7d",
             "dc:title": "Repository"
         },
         {
@@ -59,6 +59,13 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
                         "required": true,
                         "name": "ID"
+                    },
+                    {
+                        "dc:extent": "singlevalued",
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#parameterReference",
+                        "required": true,
+                        "name": "Parameter_ID"
                     },
                     {
                         "dc:extent": "singlevalued",
@@ -153,6 +160,17 @@
                 "foreignKeys": [
                     {
                         "columnReference": [
+                            "Parameter_ID"
+                        ],
+                        "reference": {
+                            "resource": "parameters.csv",
+                            "columnReference": [
+                                "ID"
+                            ]
+                        }
+                    },
+                    {
+                        "columnReference": [
                             "Language_ID"
                         ],
                         "reference": {
@@ -190,6 +208,33 @@
                 ]
             },
             "url": "values.csv"
+        },
+        {
+            "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
+            "dc:extent": 218,
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z0-9_\\-]+"
+                        },
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+                        "required": true,
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+                        "required": false,
+                        "name": "Name"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "parameters.csv"
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",

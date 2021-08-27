@@ -39,7 +39,7 @@ class Dataset(BaseDataset):
 
     def create_schema(self, ds):
         # values.csv
-        ds.remove_columns('ValueTable', 'Language_ID', 'Parameter_ID', 'Code_ID', 'Comment', 'Source')
+        ds.remove_columns('ValueTable', 'Language_ID', 'Code_ID', 'Comment', 'Source')
         ds.add_columns(
             'ValueTable',
             {
@@ -60,7 +60,8 @@ class Dataset(BaseDataset):
         )
 
         # parameters.csv
-        # ds.add_component('ParameterTable')
+        ds.add_component('ParameterTable')
+        ds.remove_columns('ParameterTable', 'Description')
 
         # # languages.csv
         ds.add_component('LanguageTable', *self.languageTableProperties)
@@ -88,17 +89,16 @@ class Dataset(BaseDataset):
                 'ID': str(counter),
                 'Inventory_ID': row['ID'],
                 'Language_ID': row['Glottocode'].lstrip('(').rstrip(')').strip(),
-                # 'Parameter_ID': str(counter),
+                'Parameter_ID': str(counter),
                 'Value': row['Tone '],
                 **{ k: row[k] for k in self.valueTableProperties}
             })
 
             # parameters.csv
-            # args.writer.objects['ParameterTable'].append({
-            #     'ID': str(counter),
-            #     'Name': row['Phoneme'],
-            #     'Description': ' - '.join(unicodedata.name(c) for c in row['Phoneme']), 
-            # })
+            args.writer.objects['ParameterTable'].append({
+                'ID': str(counter),
+                'Name': row['Tone '],
+            })
 
             counter = counter + 1
 
