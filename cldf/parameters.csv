@@ -1,219 +1,33 @@
 ID,Name
-1,
-2,
-3,low
-4,high
-5,low
-6,High/rising-falling
-7,high
-8,low
-9,level
-10,rising
-11,falling
-12,low falling
-13,low level
-14,low rising
-15,high falling
-16,high level
-17,high rising
-18,falling
-19,rising
-20,high
-21,high rising
-22,falling
-23,rising
-24,level
-25,not clear from source
-26,low falling
-27,high
-28,low rising
-29,high rising
-30,low
-31,high
-32,low
-33,low
-34,high
-35,not clear from source
-36,low
-37,falling
-38,
-39,
-40,
-41,
-42,high
-43,low
-44,extra high
-45,high
-46,falling
-47,level
-48,falling
-49,rising
-50,low
-51,high
-52,falling
-53,low
-54,high
-55,low
-56,high
-57,low
-58,extra low
-59,
-60,falling
-61,level
-62,low
-63,high
-64,mid
-65,low
-66,high
-67,mid falling
-68,low
-69,Mid-rising glottalised
-70,Mid-falling glottalised
-71,mid
-72,high
-73,falling
-74,rising
-75,level
-76,
-77,low rising
-78,low falling
-79,low
-80,high rising
-81,high falling
-82,high
-83,falling
-84,low
-85,mid
-86,high
-87,low
-88,high
-89,riseing-falling
-90,extra high
-91,high falling
-92,high level
-93,low falling
-94,low register version of tone B
-95,low level
-96,mid rising
-97,mid
-98,
-99,
-100,
-101,
-102,
-103,
-104,high
-105,high falling
-106,
-107,
-108,
-109,
-110,
-111,
-112,
-113,
-114,
-115,
-116,
-117,
-118,
-119,
-120,
-121,
-122,
-123,
-124,high
-125,low
-126,high
-127,high
-128,low
-129,unclear from source
-130,unclear from source
-131,unclear from source
-132,unclear from source
-133,high
-134,
-135,unclear from source
-136,rising
-137,rising-falling
-138,high
-139,falling
-140,high
-141,extra high
-142,high
-143,low
-144,mid
-145,rising
-146,falling
-147,low
-148,
-149,
-150,
-151,
-152,
-153,
-154,rising
-155,
-156,high level
-157,
-158,high
-159,low
-160,high
-161,low
-162,low
-163,high
-164,mid
-165,high
-166,mid creaky or glottal-stopped
-167,low
-168,high creaky
-169,low creaky or glottal-stopped
-170,high mid
-171,low
-172,high
-173,low mid
-174,falling
-175,rising
-176,low
-177,high
-178,low
-179,high
-180,high
-181,low
-182,high falling
-183,low falling
-184,falling
-185,high
-186,
-187,rising
-188,high
-189,high level
-190,
-191,
-192,
-193,rising
-194,falling
-195,long high
-196,rising
-197,mid
-198,falling
-199,toneless
-200,high
-201,
-202,
-203,
-204,
-205,
-206,
-207,falling
-208,
-209,
-210,falling
-211,falling
-212,falling
-213,falling
-214,falling
-215,high
-216,mid
-217,falling
-218,falling
+D41D8CD98F00B204E9800998ECF8427E,
+53CCED8D281A1A0ACE3CB6594DAAA4F7,low
+8D966B2253A917086C8604959E152243,high
+8121A1342D33EBBC7C0F0F8DD59B64A3,High/rising-falling
+C9E9A848920877E76685B2E4E76DE38D,level
+637AA1A3F3FE939460E3E6126A3CB76A,rising
+465223D16534B847FAF7B88E6CD17139,falling
+3D179A24574181858DE45D3926F3703D,low falling
+1FF3E764217B0421A5360E2174B45D62,low level
+363F8E13D72049817D8F6E7EB5BFC367,low rising
+B5374888049DEB2C3FB47CC84146F460,high falling
+4F7250D3224B54AEBB4CB4CE0E320015,high level
+2DB64143DDC2CAC168C5937C9E75DBD5,high rising
+8A3196A96DC61828EDC0D428E6170CDF,not clear from source
+EA7B897B319F23424753237F12616A98,extra high
+B02BE9CCED703D8EA146C528088411BA,extra low
+22384709D743FE3C6FB0A4B35B2E10A6,mid
+0F4ADB3D82C14720E71926DDCE788F65,mid falling
+84059A815F0086393BE24A029A3B1819,Mid-rising glottalised
+CD3D2E3D9AA1E0D0E03EF0470EA24143,Mid-falling glottalised
+27506DB893A15875E2F39C487BD42043,riseing-falling
+5AA1CA73AEEBBA99B1FC278AB0E88B90,low register version of tone B
+7B48D4B174817A6C032167F71733D1D0,mid rising
+58763641AC42DE7F4EA0459DF03CB553,unclear from source
+3940B1A924E0BE5223F9EA06B8BAF7CF,rising-falling
+CB6DB1B733EFEEF2FA281C080A4F0241,mid creaky or glottal-stopped
+E1F71B80D9DDDF429B5B4005C5D0AE10,high creaky
+8A4C5A1C9C7DBB4AB040931642265F28,low creaky or glottal-stopped
+2EFB5A6796EECE9532432F1470BFB1CB,high mid
+B8D2A4743664275F24C327C1963DEC5D,low mid
+05F36F7F086099ACABAB74AB2D1D3CA2,long high
+0DDE09C6F1F207781B038E452EEE1CE6,toneless

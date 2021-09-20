@@ -1,6 +1,6 @@
 import pathlib
 import subprocess
-import unicodedata
+import hashlib
 from cldfbench import Dataset as BaseDataset
 from cldfbench import CLDFSpec
 
@@ -79,27 +79,33 @@ class Dataset(BaseDataset):
     def cmd_makecldf(self, args):
         self.create_schema(args.writer.cldf)
 
-        # values.csv
+        tone_list = []
         counter = 1
         for row in self.raw_dir.read_csv(
             self.raw_dir / 'tonodb' / 'data' / 'Tonogenesis - Database.csv',
             dicts=True,
         ):
+            tone = row['Tone ']
+            tone_id = hashlib.md5(tone.encode('utf8')).hexdigest().upper()
+
+            # values.csv
             args.writer.objects['ValueTable'].append({
                 'ID': str(counter),
                 'Inventory_ID': row['ID'],
                 'Language_ID': row['Glottocode'].lstrip('(').rstrip(')').strip(),
-                'Parameter_ID': str(counter),
-                'Value': row['Tone '],
+                'Parameter_ID': tone_id,
+                'Value': tone,
                 **{ k: row[k] for k in self.valueTableProperties}
             })
 
             # parameters.csv
-            args.writer.objects['ParameterTable'].append({
-                'ID': str(counter),
-                'Name': row['Tone '],
-            })
+            if tone not in tone_list:
+                args.writer.objects['ParameterTable'].append({
+                    'ID': tone_id,
+                    'Name': tone,
+                })
 
+            tone_list.append(tone)
             counter = counter + 1
 
         # languages.csv

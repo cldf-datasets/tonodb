@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/tonodb",
             "rdf:type": "prov:Entity",
-            "dc:created": "f867b7d",
+            "dc:created": "58c9afc",
             "dc:title": "Repository"
         },
         {
@@ -211,7 +211,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 218,
+            "dc:extent": 32,
             "tableSchema": {
                 "columns": [
                     {

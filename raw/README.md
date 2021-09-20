@@ -1,4 +1,1 @@
-# Source directory
-
-This directory contains the "raw" source data of the dataset from which the
-CLDF dataset in [`cldf/`](../cldf) is derived.
+Raw data downloaded 2021-09-20T08:57:12.787941
