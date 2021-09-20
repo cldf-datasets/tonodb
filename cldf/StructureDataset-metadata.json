@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/tonodb",
             "rdf:type": "prov:Entity",
-            "dc:created": "58c9afc",
+            "dc:created": "f8e8e6c",
             "dc:title": "Repository"
         },
         {
@@ -26,7 +26,7 @@
         {
             "rdf:about": "https://github.com/uzling/tono_db",
             "rdf:type": "prov:Entity",
-            "dc:created": "317779a",
+            "dc:created": "0b58427",
             "dc:title": "Repository"
         }
     ],
@@ -48,7 +48,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 218,
+            "dc:extent": 229,
             "tableSchema": {
                 "columns": [
                     {
@@ -94,6 +94,10 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "LanguageVariety"
+                    },
+                    {
+                        "datatype": "string",
                         "name": "TriggeringContext"
                     },
                     {
@@ -102,11 +106,11 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Hight"
+                        "name": "Height"
                     },
                     {
                         "datatype": "string",
-                        "name": "Countour"
+                        "name": "Contour"
                     },
                     {
                         "datatype": "string",
@@ -122,11 +126,11 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "EffectOnPitch"
+                        "name": "Notes"
                     },
                     {
                         "datatype": "string",
-                        "name": "Notes"
+                        "name": "EffectOnPitch"
                     },
                     {
                         "datatype": "string",
@@ -154,7 +158,7 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Nucleus"
+                        "name": "long vowel"
                     }
                 ],
                 "foreignKeys": [
@@ -211,7 +215,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 32,
+            "dc:extent": 31,
             "tableSchema": {
                 "columns": [
                     {
@@ -238,7 +242,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 81,
+            "dc:extent": 78,
             "tableSchema": {
                 "columns": [
                     {
@@ -350,7 +354,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:extent": 87,
+            "dc:extent": 89,
             "tableSchema": {
                 "columns": [
                     {
@@ -383,6 +387,14 @@
                     {
                         "datatype": "string",
                         "name": "Area"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Notes"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "BibTex"
                     }
                 ],
                 "primaryKey": [

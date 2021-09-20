@@ -26,9 +26,9 @@ def glang_attrs(glang, languoids):
 class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "tonodb"
-    valueTableProperties = ['TriggeringContext', 'Extra', 'Hight', 'Countour', 'Phonation', 'ToneDescription', 'ChaoNumerals', 'EffectOnPitch', 'Notes', 'ResultantSystem', 'Type', 'Onset', 'Coda', 'Stress/quantity', 'Wordtype', 'Nucleus']
+    valueTableProperties = ['LanguageVariety', 'TriggeringContext' , 'Extra', 'Height', 'Contour', 'Phonation', 'ToneDescription', 'ChaoNumerals', 'Notes', 'EffectOnPitch', 'ResultantSystem', 'Type', 'Onset', 'Coda', 'Stress/quantity', 'Wordtype', 'long vowel']
     languageTableProperties = ['family_id', 'parent_id', 'bookkeeping', 'level', 'description', 'markup_description', 'child_family_count', 'child_language_count', 'child_dialect_count', 'country_ids']
-    inventoryTableProperties = ['LanguageVariety', 'Family', 'Area']
+    inventoryTableProperties = ['LanguageVariety', 'Family', 'Area', 'Notes', 'BibTex']
 
     def cldf_specs(self):  # A dataset must declare all CLDF sets it creates.
         return CLDFSpec(dir=self.cldf_dir, module='StructureDataset')
@@ -79,6 +79,20 @@ class Dataset(BaseDataset):
     def cmd_makecldf(self, args):
         self.create_schema(args.writer.cldf)
 
+        indexToLanguageID = {}
+        # contributions.csv
+        for row in self.raw_dir.read_csv(
+            self.raw_dir / 'tonodb' / 'data' / 'Tonogenesis - Index.csv',
+            dicts=True,
+        ):
+            args.writer.objects['ContributionTable'].append({
+                'ID': row['ID'],
+                'Contributor': '',
+                'Glottocode': row['Glottocode'],
+                **{ k: row[k] for k in self.inventoryTableProperties}
+            })
+            indexToLanguageID[row['ID']] = row['Glottocode']
+
         tone_list = []
         counter = 1
         for row in self.raw_dir.read_csv(
@@ -92,7 +106,7 @@ class Dataset(BaseDataset):
             args.writer.objects['ValueTable'].append({
                 'ID': str(counter),
                 'Inventory_ID': row['ID'],
-                'Language_ID': row['Glottocode'].lstrip('(').rstrip(')').strip(),
+                'Language_ID': indexToLanguageID[row['ID']],
                 'Parameter_ID': tone_id,
                 'Value': tone,
                 **{ k: row[k] for k in self.valueTableProperties}
@@ -110,7 +124,7 @@ class Dataset(BaseDataset):
 
         # languages.csv
         glangs = {l.id: l for l in args.glottolog.api.languoids()}
-        language_ids = list(map(lambda row: row['Language_ID'], args.writer.objects['ValueTable']))
+        language_ids = list(map(lambda row: row['Glottocode'], args.writer.objects['ContributionTable']))
         language_ids = list(dict.fromkeys(language_ids))
         for row in self.raw_dir.read_csv(
             self.raw_dir / 'tonodb' / 'data' / 'languoid.csv',
@@ -127,16 +141,4 @@ class Dataset(BaseDataset):
                     **(glang_attrs(glangs[row['id']], glangs) if row['id'] in glangs else {}),
                     **{ k: row[k] for k in self.languageTableProperties}
                 })
-
-        # contributions.csv
-        for row in self.raw_dir.read_csv(
-            self.raw_dir / 'tonodb' / 'data' / 'Tonogenesis - Index.csv',
-            dicts=True,
-        ):
-            args.writer.objects['ContributionTable'].append({
-                'ID': row['ID'],
-                'Contributor': row['Reference'],
-                'Glottocode': row['Glottocode'].lstrip('(').rstrip(')').strip(),
-                **{ k: row[k] for k in self.inventoryTableProperties}
-            })
         

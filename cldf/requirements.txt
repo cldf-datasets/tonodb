@@ -2,7 +2,7 @@ appdirs==1.4.4
 bs4==0.0.1
 certifi==2021.5.30
 cldfbench==1.7.2
--e git+git@github.com:J22Melody/semphon.git@8f718430997d21a59d3a815675af6825127a2540#egg=cldfbench_semphon
+-e git+git@github.com:J22Melody/semphon.git@7f14b2e32b55443d5e351be6e249d060fedb1ae0#egg=cldfbench_semphon
 cldfcatalog==1.3.2
 clldutils==3.9.0
 colorlog==5.0.1

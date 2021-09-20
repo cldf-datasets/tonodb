@@ -22,11 +22,6 @@ extr1245,Extreme Southern New Caledonian,,,,extr1245,,aust1307,sout3313,False,fa
 geba1237,Geba Karen,Eurasia,19.4991,96.9492,geba1237,kvq,sino1245,geba1236,False,language,,,0,0,0,MM
 heil1246,Heiltsuk-Oowekyala,North America,51.7045,-127.221,heil1246,hei,waka1280,kwak1268,False,language,,,0,0,2,CA
 hmon1333,Hmong Daw,Eurasia,21.5461,103.164,hmon1333,mww,hmon1336,firs1234,False,language,,,0,0,4,CN LA TH VN
-hmon1334,Hmong Gu Mba,Eurasia,,,hmon1334,,hmon1336,hmon1333,False,dialect,,,0,0,0,
-hmon1335,Hmong Xi,Eurasia,,,hmon1335,,hmon1336,hmon1333,False,dialect,,,0,0,0,
-hmon1336,Hmong-Mien,,,,hmon1336,,,,False,family,,,19,39,26,
-hmon1337,Hmongic,,,,hmon1337,,hmon1336,hmon1336,False,family,,,16,34,12,
-hmon1338,Hmong Njua (Retired),,,,hmon1338,blu,book1242,book1242,True,language,,,0,0,0,
 hopi1249,Hopi,North America,35.7653,-110.535,hopi1249,hop,utoa1244,nort2953,False,language,,,0,0,3,US
 huuu1240,Hu,Eurasia,22.0163,100.881,huuu1240,huo,aust1305,sout3232,False,language,,,0,0,0,CN
 iraq1241,Iraqw,Africa,-4.19948,35.2939,iraq1241,irk,afro1255,iraq1240,False,language,,,0,0,1,TZ
@@ -43,10 +38,12 @@ latv1249,Latvian,Eurasia,56.826108,24.309118,latv1249,lav,indo1319,east2280,Fals
 limb1263,Limburgan,Eurasia,51.015,5.87705,limb1263,lim,indo1319,ripu1236,False,language,,,0,0,9,BE DE NL
 lith1251,Lithuanian,Eurasia,55.1429,23.9601,lith1251,lit,indo1319,east2280,False,language,,,0,0,9,BY LT LV PL RU
 lugb1240,Lugbara,Africa,3.02245,30.8642,lugb1240,lgg,cent2225,cent2043,False,language,,,0,0,9,CD UG
+mang1393,Mangbetu-Asua,,,,mang1393,,cent2225,cent2225,False,family,,,1,3,5,
 matb1237,Matbat,Papunesia,-1.8801,130.075,matb1237,xmt,aust1307,maya1288,False,language,,,0,0,0,ID
+metn1237,Metnyo,Papunesia,,,metn1237,,aust1307,waig1244,False,dialect,,,0,0,0,
 midd1319,Middle Franconian,Eurasia,,,midd1319,,indo1319,high1287,False,family,,,1,3,25,
 midd1344,Middle Chinese,Eurasia,34.27,108.9,midd1344,ltc,sino1245,midd1354,False,language,,,0,0,2,CN
-mobw1234,Mobwa Karen,Eurasia,19.0443,96.6027,mobw1234,jkm,sino1245,cent1999,False,language,,,0,0,0,MM
+moba1244,Moba,Africa,10.9496,0.159565,moba1244,mfq,atla1278,moba1243,False,language,,,0,0,1,BF GH TG
 moha1257,Mohawk-Oneida,,,,moha1257,,iroq1247,nort2947,False,family,,,0,2,0,
 moha1258,Mohawk,North America,43.72,-74.66836,moha1258,moh,iroq1247,moha1257,False,language,,,0,0,0,CA US
 morm1235,Mor (Mor Islands),Papunesia,-2.87055,135.95,morm1235,mhz,aust1307,sout3229,False,language,,,0,0,0,ID
@@ -69,6 +66,7 @@ slav1255,Slavic,,,,slav1255,,indo1319,balt1263,False,family,,,11,20,102,
 sout2746,Southern Thai,Eurasia,6.85668,99.7031,sout2746,sou,taik1256,laot1235,False,language,,,0,0,2,MM MY TH
 taik1256,Tai-Kadai,,,,taik1256,,,,False,family,,,55,95,88,
 take1257,Takelma,North America,42.423,-123.452,take1257,tkm,,,False,language,,,0,0,0,US
+thai1261,Thai,Eurasia,14.192,100.671,thai1261,tha,taik1256,laot1235,False,language,,,0,0,1,KH MM TH
 tian1238,Tianjin Mandarin,Eurasia,39.186072,117.215424,tian1238,,sino1245,jilu1239,False,dialect,,,0,0,0,
 tlin1245,Tlingit,North America,59.4447,-135.29,tlin1245,tli,atha1245,atha1245,False,language,,,0,0,7,CA US
 tsat1238,Tsat,Eurasia,18.3192,109.336,tsat1238,huq,aust1307,nort3219,False,language,,,0,0,0,CN
@@ -76,7 +74,6 @@ tuuu1240,Tu,Eurasia,36.8177,102.117,tuuu1240,mjg,mong1349,shir1260,False,languag
 utsa1239,Lhasa Tibetan,Eurasia,,,utsa1239,,sino1245,dbus1238,False,dialect,,,0,0,0,
 uuuu1243,U,Eurasia,22.6767,101.772,uuuu1243,uuu,aust1305,angk1246,False,language,,,0,0,0,CN
 viet1252,Vietnamese,Eurasia,20.681188,105.774071,viet1252,vie,aust1305,viet1251,False,language,,,0,0,3,CN LA VN
-waig1244,Waigeo,Papunesia,-0.17957,130.917,waig1244,wgo,aust1307,ambe1249,False,language,,,0,0,2,ID
 yabe1254,Yabem,Papunesia,-6.67052,147.81,yabe1254,jae,aust1307,nort2858,False,language,,,0,0,0,PG
 yeni1252,Yeniseian,,,,yeni1252,,,,False,family,,,3,5,3,
 zhuo1234,Zhuoni,Eurasia,,,zhuo1234,,sino1245,chon1285,False,dialect,,,0,0,3,

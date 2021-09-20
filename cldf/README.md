@@ -10,7 +10,7 @@ property | value
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF StructureDataset](http://cldf.clld.org/v1.0/terms.rdf#StructureDataset)
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://github.com/uzling/tono_db
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | git@github.com:cldf-datasets/tonodb
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:cldf-datasets/tonodb/tree/58c9afc">git@github.com:cldf-datasets/tonodb 58c9afc</a></li><li><a href="git@github.com:glottolog/glottolog/tree/f6531fcec3">Glottolog v4.4-20-gf6531fcec3</a></li><li><a href="https://github.com/uzling/tono_db/tree/317779a">uzling/tono_db 317779a</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:cldf-datasets/tonodb/tree/f8e8e6c">git@github.com:cldf-datasets/tonodb f8e8e6c</a></li><li><a href="git@github.com:glottolog/glottolog/tree/f6531fcec3">Glottolog v4.4-20-gf6531fcec3</a></li><li><a href="https://github.com/uzling/tono_db/tree/0b58427">uzling/tono_db 0b58427</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.8.11</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | tonodb
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -21,7 +21,7 @@ property | value
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ValueTable](http://cldf.clld.org/v1.0/terms.rdf#ValueTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 218
+[dc:extent](http://purl.org/dc/terms/extent) | 229
 
 
 ### Columns
@@ -33,29 +33,30 @@ Name/Property | Datatype | Description
 [Value](http://cldf.clld.org/v1.0/terms.rdf#value) | `string` | 
 [Language_ID](http://cldf.clld.org/v1.0/terms.rdf#languageReference) | `string` | References [languages.csv::ID](#table-languagescsv)
 [Inventory_ID](http://cldf.clld.org/v1.0/terms.rdf#contributionReference) | `string` | References [contributions.csv::ID](#table-contributionscsv)
+`LanguageVariety` | `string` | 
 `TriggeringContext` | `string` | 
 `Extra` | `string` | 
-`Hight` | `string` | 
-`Countour` | `string` | 
+`Height` | `string` | 
+`Contour` | `string` | 
 `Phonation` | `string` | 
 `ToneDescription` | `string` | 
 `ChaoNumerals` | `string` | 
-`EffectOnPitch` | `string` | 
 `Notes` | `string` | 
+`EffectOnPitch` | `string` | 
 `ResultantSystem` | `string` | 
 `Type` | `string` | 
 `Onset` | `string` | 
 `Coda` | `string` | 
 `Stress/quantity` | `string` | 
 `Wordtype` | `string` | 
-`Nucleus` | `string` | 
+`long vowel` | `string` | 
 
 ## <a name="table-parameterscsv"></a>Table [parameters.csv](./parameters.csv)
 
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ParameterTable](http://cldf.clld.org/v1.0/terms.rdf#ParameterTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 32
+[dc:extent](http://purl.org/dc/terms/extent) | 31
 
 
 ### Columns
@@ -70,7 +71,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF LanguageTable](http://cldf.clld.org/v1.0/terms.rdf#LanguageTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 81
+[dc:extent](http://purl.org/dc/terms/extent) | 78
 
 
 ### Columns
@@ -100,7 +101,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ContributionTable](http://cldf.clld.org/v1.0/terms.rdf#ContributionTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 87
+[dc:extent](http://purl.org/dc/terms/extent) | 89
 
 
 ### Columns
@@ -113,4 +114,6 @@ Name/Property | Datatype | Description
 `LanguageVariety` | `string` | 
 `Family` | `string` | 
 `Area` | `string` | 
+`Notes` | `string` | 
+`BibTex` | `string` | 
 
