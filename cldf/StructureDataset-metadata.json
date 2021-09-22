@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/tonodb",
             "rdf:type": "prov:Entity",
-            "dc:created": "f8e8e6c",
+            "dc:created": "b1cc8a0",
             "dc:title": "Repository"
         },
         {
@@ -26,7 +26,7 @@
         {
             "rdf:about": "https://github.com/uzling/tono_db",
             "rdf:type": "prov:Entity",
-            "dc:created": "0b58427",
+            "dc:created": "ca5c624",
             "dc:title": "Repository"
         }
     ],
@@ -242,7 +242,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 78,
+            "dc:extent": 79,
             "tableSchema": {
                 "columns": [
                     {

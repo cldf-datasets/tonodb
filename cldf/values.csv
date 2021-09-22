@@ -197,12 +197,12 @@ ID,Parameter_ID,Value,Language_ID,Inventory_ID,LanguageVariety,TriggeringContext
 196,465223D16534B847FAF7B88E6CD17139,falling,auks1239,75,Auktaitian dialects of Lithuanian,"the glottalization of originally stressed constricted syllables was weakened and developed into creaky voice quality, resulting in a falling tone",,,falling,,,,,,,coda,,creaky,,,
 197,0DDE09C6F1F207781B038E452EEE1CE6,toneless,metn1237,76,Metnyo Ambel,toneless syllable with high vowels,,low,,,,,High tone already existed on other words,,,nucleus,,,,,high vowel
 198,8D966B2253A917086C8604959E152243,high,metn1237,76,Metnyo Ambel,toneless syllable with non-high vowels,,high,,,,,,,,nucleus,,,,,low vowel
-199,D41D8CD98F00B204E9800998ECF8427E,,can1236,77,Cantonese,voiced onset + tone 1,,,falling,,,21,,,,onset,voiced,,,,
-200,D41D8CD98F00B204E9800998ECF8427E,,can1236,77,Cantonese,voiced onset + tone 2,,low,rising,,,24,,,,onset,voiced,,,,
-201,D41D8CD98F00B204E9800998ECF8427E,,can1236,77,Cantonese,voiced onset + tone 3,,low,level,,,33,,,,onset,voiced,,,,
-202,D41D8CD98F00B204E9800998ECF8427E,,can1236,77,Cantonese,voiceless onset + tone 1,,high,level,,,55,,,,onset,voiceless,,,,
-203,D41D8CD98F00B204E9800998ECF8427E,,can1236,77,Cantonese,voiceless onset + tone 2,,high,rising,,,35,,,,onset,voiceless,,,,
-204,D41D8CD98F00B204E9800998ECF8427E,,can1236,77,Cantonese,voiceless onset + tone 3,,mid,level,,,44,,,,onset,voiceless,,,,
+199,D41D8CD98F00B204E9800998ECF8427E,,cant1236,77,Cantonese,voiced onset + tone 1,,,falling,,,21,,,,onset,voiced,,,,
+200,D41D8CD98F00B204E9800998ECF8427E,,cant1236,77,Cantonese,voiced onset + tone 2,,low,rising,,,24,,,,onset,voiced,,,,
+201,D41D8CD98F00B204E9800998ECF8427E,,cant1236,77,Cantonese,voiced onset + tone 3,,low,level,,,33,,,,onset,voiced,,,,
+202,D41D8CD98F00B204E9800998ECF8427E,,cant1236,77,Cantonese,voiceless onset + tone 1,,high,level,,,55,,,,onset,voiceless,,,,
+203,D41D8CD98F00B204E9800998ECF8427E,,cant1236,77,Cantonese,voiceless onset + tone 2,,high,rising,,,35,,,,onset,voiceless,,,,
+204,D41D8CD98F00B204E9800998ECF8427E,,cant1236,77,Cantonese,voiceless onset + tone 3,,mid,level,,,44,,,,onset,voiceless,,,,
 205,465223D16534B847FAF7B88E6CD17139,falling,nupe1254,78,Nupe,"vowel deletion, two tones attached to one TBU",,,falling,,,,,,,wordtype,,,,,
 206,D41D8CD98F00B204E9800998ECF8427E,,arap1274,79,Arapaho,disyllable that stays disyllabic,,,,,accent on first syllable (acent = peak),,,,Pitch-accent,wordtype,,,,no change,
 207,D41D8CD98F00B204E9800998ECF8427E,,arap1274,79,Arapaho,"trisyllable > disyllable, disyllable with secondarily lenghtened vowel in second syllable",,,,,accent on final syllable (acent = peak),,,,Pitch-accent,"wordtype, nucleus",,,,loss of a syllable,long vowel

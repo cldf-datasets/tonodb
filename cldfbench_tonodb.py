@@ -3,6 +3,10 @@ import subprocess
 import hashlib
 from cldfbench import Dataset as BaseDataset
 from cldfbench import CLDFSpec
+try:
+    from pytular.util import fetch_sheet
+except ImportError:
+    fetch_sheet = None
 
 
 # copy from https://github.com/cldf-datasets/phoible/blob/phoible-3.0/cldfbench_phoible.py#L91
