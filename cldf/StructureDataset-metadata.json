@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/tonodb",
             "rdf:type": "prov:Entity",
-            "dc:created": "b1cc8a0",
+            "dc:created": "aeb6bb8",
             "dc:title": "Repository"
         },
         {
@@ -371,6 +371,12 @@
                         "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#contributor",
                         "required": false,
                         "name": "Contributor"
+                    },
+                    {
+                        "datatype": "string",
+                        "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#citation",
+                        "required": false,
+                        "name": "Citation"
                     },
                     {
                         "datatype": "string",

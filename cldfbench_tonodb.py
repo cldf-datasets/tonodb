@@ -72,7 +72,7 @@ class Dataset(BaseDataset):
 
         # contributions.csv
         ds.add_component('ContributionTable')
-        ds.remove_columns('ContributionTable', 'Name', 'Description', 'Citation')
+        ds.remove_columns('ContributionTable', 'Name', 'Description')
         ds.add_columns(
             'ContributionTable',
             'Glottocode',
@@ -91,7 +91,8 @@ class Dataset(BaseDataset):
         ):
             args.writer.objects['ContributionTable'].append({
                 'ID': row['ID'],
-                'Contributor': '',
+                'Citation': 'Lilja Saeboe, Alena Witzlack, Eitan Grossman, & Steven Moran. 2021. TonoDB: a database of tonogenesis events.',
+                'Contributor': 'Lilja Saeboe',
                 'Glottocode': row['Glottocode'],
                 **{ k: row[k] for k in self.inventoryTableProperties}
             })
