@@ -3,9 +3,11 @@ arap1274,Arapaho,North America,43.3879,-108.81,arap1274,arp,algi1248,arap1280,Fa
 atha1247,Athabaskan,,,,atha1247,,atha1245,atha1246,False,family,,,25,44,57,
 auks1239,Aukshtaitish,Eurasia,,,auks1239,,indo1319,lith1251,False,dialect,,,0,0,3,
 baim1244,Baima,Eurasia,33.1001,103.952,baim1244,bqh,sino1245,east2771,False,language,,,0,0,3,CN
+bara1380,Barasana-Eduria,South America,0.02193,-70.808,bara1380,bsn,tuca1253,sout3006,False,language,,,0,0,3,CO
 benc1235,Bench,Africa,7.04682,35.7673,benc1235,bcq,gong1255,gong1255,False,language,,,0,0,3,ET
 bila1255,Bila,Africa,1.16839,28.7626,bila1255,bip,atla1278,bila1259,False,language,,,0,0,2,CD
 boro1277,Boro (Ethiopia),Africa,10.6596,35.345,boro1277,bwo,gong1255,gong1256,False,language,,,0,0,4,ET
+brok1248,Brokpake,Eurasia,27.3438,91.9972,brok1248,sgt,sino1245,sout3217,False,language,,,0,0,0,BT IN
 bwek1238,Bwe Karen,Eurasia,18.9796,96.9936,bwek1238,bwe,sino1245,geba1236,False,language,,,0,0,0,MM TH
 cadd1256,Caddo,North America,33.33,-93.5,cadd1256,cad,cadd1255,cadd1255,False,language,,,0,0,0,US
 cant1236,Cantonese,Eurasia,,,cant1236,,sino1245,yueh1236,False,dialect,,,0,0,5,
@@ -14,6 +16,7 @@ cent2346,Central Tibetan,,,,cent2346,,sino1245,late1253,False,family,,,7,16,33,
 cher1273,Cherokee,North America,35.4664,-83.163,cher1273,chr,iroq1247,iroq1247,False,language,,,0,0,4,US
 chey1247,Cheyenne,North America,45.5321,-106.659,chey1247,chy,algi1248,algo1257,False,language,,,0,0,0,US
 coas1300,Coast Tsimshian,North America,,,coas1300,,tsim1258,nucl1649,False,dialect,,,0,0,0,
+cube1242,Cubeo,South America,1.32382,-70.1939,cube1242,cub,tuca1253,cube1243,False,language,,,0,0,0,BR CO VE
 dani1285,Danish,Eurasia,54.8655,9.36284,dani1285,dan,indo1319,nucl1782,False,language,,,0,0,8,DE DK
 dzon1239,Dzongkha,Eurasia,27.410786,89.581604,dzon1239,dzo,sino1245,nucl1307,False,language,,,0,0,3,BT CN IN NP
 east2280,Eastern Baltic,,,,east2280,,indo1319,balt1263,False,family,,,0,2,12,
@@ -24,6 +27,7 @@ geba1237,Geba Karen,Eurasia,19.4991,96.9492,geba1237,kvq,sino1245,geba1236,False
 heil1246,Heiltsuk-Oowekyala,North America,51.7045,-127.221,heil1246,hei,waka1280,kwak1268,False,language,,,0,0,2,CA
 hmon1333,Hmong Daw,Eurasia,21.5461,103.164,hmon1333,mww,hmon1336,firs1234,False,language,,,0,0,4,CN LA TH VN
 hopi1249,Hopi,North America,35.7653,-110.535,hopi1249,hop,utoa1244,nort2953,False,language,,,0,0,3,US
+hupd1244,Hup,South America,0.58622,-69.8359,hupd1244,jup,nada1235,hupy1235,False,language,,,0,0,3,BR CO
 huuu1240,Hu,Eurasia,22.0163,100.881,huuu1240,huo,aust1305,sout3232,False,language,,,0,0,0,CN
 iraq1241,Iraqw,Africa,-4.19948,35.2939,iraq1241,irk,afro1255,iraq1240,False,language,,,0,0,1,TZ
 ires1239,Yerisiam,Papunesia,-3.62803,135.025,ires1239,ire,aust1307,yaur1240,False,language,,,0,0,0,ID
@@ -34,6 +38,7 @@ kick1244,Kickapoo,North America,41.655145,-89.03034,kick1244,kic,algi1248,foxx12
 kohu1244,Kohumono,Africa,5.92596,7.96202,kohu1244,bcs,atla1278,kohu1243,False,language,,,0,0,0,NG
 kore1280,Korean,Eurasia,37.5,128.0,kore1280,kor,kore1284,kore1284,False,language,,,0,0,13,CN KP KR RU
 kurt1248,Kurtokha,Eurasia,27.5365,90.9822,kurt1248,xkz,sino1245,bumt1238,False,language,,,0,0,0,BT CN
+kwam1249,Gwama,Africa,9.50836,34.2457,kwam1249,kmq,koma1264,koma1264,False,language,,,0,0,2,ET
 lahu1253,Lahu,Eurasia,21.2701,100.214,lahu1253,lhu,sino1245,laho1234,False,language,,,0,0,4,CN LA MM TH VN
 latv1249,Latvian,Eurasia,56.826108,24.309118,latv1249,lav,indo1319,east2280,False,language,,,0,0,3,BY EE LT LV RU
 limb1263,Limburgan,Eurasia,51.015,5.87705,limb1263,lim,indo1319,ripu1236,False,language,,,0,0,9,BE DE NL
@@ -45,13 +50,18 @@ metn1237,Metnyo,Papunesia,,,metn1237,,aust1307,waig1244,False,dialect,,,0,0,0,
 midd1319,Middle Franconian,Eurasia,,,midd1319,,indo1319,high1287,False,family,,,1,3,25,
 midd1344,Middle Chinese,Eurasia,34.27,108.9,midd1344,ltc,sino1245,midd1354,False,language,,,0,0,2,CN
 moba1244,Moba,Africa,10.9496,0.159565,moba1244,mfq,atla1278,moba1243,False,language,,,0,0,1,BF GH TG
+moch1257,Mocho,North America,15.4538,-92.1734,moch1257,mhc,maya1287,kanj1262,False,language,,,0,0,2,GT MX
 moha1257,Mohawk-Oneida,,,,moha1257,,iroq1247,nort2947,False,family,,,0,2,0,
 moha1258,Mohawk,North America,43.72,-74.66836,moha1258,moh,iroq1247,moha1257,False,language,,,0,0,0,CA US
 morm1235,Mor (Mor Islands),Papunesia,-2.87055,135.95,morm1235,mhz,aust1307,sout3229,False,language,,,0,0,0,ID
+ndak1241,Ndaka,Africa,1.53341,27.9693,ndak1241,ndk,atla1278,ndak1244,False,language,,,0,0,0,CD
 newc1243,New Caledonian,,,,newc1243,,aust1307,sout3173,False,family,,,20,33,20,
+nort2740,Northern Thai,Eurasia,18.857495,100.20739,nort2740,nod,taik1256,sout2744,False,language,,,0,0,3,LA MM TH
 nort3160,North Germanic,,,,nort3160,,indo1319,nort3152,False,family,,,8,15,71,
 nucl1310,Burmese,Eurasia,20.7926,93.9665,nucl1310,mya,sino1245,oldm1246,False,language,,,0,0,3,BD MM TH
 nupe1254,Nupe-Nupe-Tako,Africa,9.18404,5.40031,nupe1254,nup,atla1278,nupo1239,False,language,,,0,0,2,NG
+opuu1239,Opo,Africa,8.47526,33.853,opuu1239,lgn,koma1264,dana1255,False,language,,,0,0,8,ET SD
+orej1242,Maijiki,South America,-2.86315,-72.4926,orej1242,ore,tuca1253,napo1243,False,language,,,0,0,3,PE
 podo1243,Podoko,,,,podo1243,,afro1255,mand1472,False,family,,,0,2,0,
 prus1238,Old Prussian,Eurasia,52.394,14.757,prus1238,prg,indo1319,balt1263,False,language,,,0,0,0,PL
 pwon1235,Pwo Northern Karen,Eurasia,18.016,98.2709,pwon1235,pww,sino1245,nort2704,False,language,,,0,0,3,MM TH
@@ -67,14 +77,21 @@ slav1255,Slavic,,,,slav1255,,indo1319,balt1263,False,family,,,11,20,102,
 sout2746,Southern Thai,Eurasia,6.85668,99.7031,sout2746,sou,taik1256,laot1235,False,language,,,0,0,2,MM MY TH
 taik1256,Tai-Kadai,,,,taik1256,,,,False,family,,,55,95,88,
 take1257,Takelma,North America,42.423,-123.452,take1257,tkm,,,False,language,,,0,0,0,US
+tatu1247,Tatuyo,South America,0.55582,-70.5327,tatu1247,tav,tuca1253,bara1401,False,language,,,0,0,0,CO
+tere1281,Terena,South America,,,tere1281,,araw1281,tere1279,False,dialect,,,0,0,0,
 thai1261,Thai,Eurasia,14.192,100.671,thai1261,tha,taik1256,laot1235,False,language,,,0,0,1,KH MM TH
 tian1238,Tianjin Mandarin,Eurasia,39.186072,117.215424,tian1238,,sino1245,jilu1239,False,dialect,,,0,0,0,
 tlin1245,Tlingit,North America,59.4447,-135.29,tlin1245,tli,atha1245,atha1245,False,language,,,0,0,7,CA US
 tsat1238,Tsat,Eurasia,18.3192,109.336,tsat1238,huq,aust1307,nort3219,False,language,,,0,0,0,CN
 tuuu1240,Tu,Eurasia,36.8177,102.117,tuuu1240,mjg,mong1349,shir1260,False,language,,,0,0,2,CN
+tzot1259,Tzotzil,North America,16.6362,-92.7388,tzot1259,tzo,maya1287,tzel1253,False,language,,,0,0,0,MX
+uspa1245,Uspanteco,North America,15.3648,-90.8893,uspa1245,usp,maya1287,grea1276,False,language,,,0,0,0,GT
 utsa1239,Lhasa Tibetan,Eurasia,,,utsa1239,,sino1245,dbus1238,False,dialect,,,0,0,0,
 uuuu1243,U,Eurasia,22.6767,101.772,uuuu1243,uuu,aust1305,angk1246,False,language,,,0,0,0,CN
 viet1252,Vietnamese,Eurasia,20.681188,105.774071,viet1252,vie,aust1305,viet1251,False,language,,,0,0,3,CN LA VN
+walu1241,Walungge,Eurasia,27.695,87.2374,walu1241,ola,sino1245,sout3216,False,language,,,0,0,0,IN NP
 yabe1254,Yabem,Papunesia,-6.67052,147.81,yabe1254,jae,aust1307,nort2858,False,language,,,0,0,0,PG
 yeni1252,Yeniseian,,,,yeni1252,,,,False,family,,,3,5,3,
+yuca1254,Yucatec Maya,North America,18.7757,-88.9567,yuca1254,yua,maya1287,yuca1253,False,language,,,0,0,0,BZ GT MX
+zhon1235,Zhongu,Eurasia,32.43582,103.44179,zhon1235,,sino1245,east2771,False,language,,,0,0,0,CN
 zhuo1234,Zhuoni,Eurasia,,,zhuo1234,,sino1245,chon1285,False,dialect,,,0,0,3,
