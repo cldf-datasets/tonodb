@@ -1,4 +1,4 @@
-ID,Parameter_ID,Value,Language_ID,Inventory_ID,LanguageVariety,TriggeringContext,Extra,Height,Contour,Phonation,ToneDescription,ChaoNumerals,Notes,EffectOnPitch,ResultantSystem,Type,Onset,OnsetManner,OnsetVoicing,OnsetAspiration,Coda,CodaPhonation,CodaGlottal,CodaManner,Stress/quantity,NucleusATR,NucleusLength,NucleusHight,Wordtype,Nucleus
+ID,Parameter_ID,Value,Language_ID,Inventory_ID,LanguageVariety,TriggeringContext,Extra,Height,Contour,Phonation,ToneDescription,ChaoNumerals,Notes,EffectOnPitch,ResultantSystem,Type,Onset,OnsetManner,OnsetVoicing,OnsetAspiration,Coda,CodaPhonation,CodaGlottal,CodaManner,Stress/quantity,NucleusATR,NucleusLength,NucleusHeight,Wordtype,Nucleus
 1,465223D16534B847FAF7B88E6CD17139,falling,viet1252,5,Vietnamese,Final voiceless fricative,,,falling,,,,Step 1,falling,,coda,,,,,voiceless fricative,voiceless,N/A,fricative,,,,,,
 2,465223D16534B847FAF7B88E6CD17139,falling,midd1344,9,Middle Chinese,final /h/,,,falling,,,,qu sheng,falling,lexical tone,coda,,,,,/h/,N/A,N/A,Fricative,,,,,,
 3,465223D16534B847FAF7B88E6CD17139,falling,hmon1333,31,White Hmong,final /h/,,,falling,,,,,falling,,coda,,,,,/h/,N/A,/h/,Fricative,,,,,,
