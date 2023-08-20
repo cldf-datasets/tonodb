@@ -3,6 +3,7 @@ Babel==2.11.0
 bs4==0.0.1
 cldfbench==1.13.0
 -e git+ssh://git@github.com/cldf-datasets/bdproto.git@6b2d500c906eb54b9fda1fa71dfcd279e1cef6f8#egg=cldfbench_bdproto
+-e git+ssh://git@github.com/cldf-datasets/tonodb.git@6242053177a561fe55b9a9fd758458c07697a013#egg=cldfbench_tonodb
 cldfcatalog==1.5.1
 cldfzenodo==0.3.0
 clldutils==3.12.0
