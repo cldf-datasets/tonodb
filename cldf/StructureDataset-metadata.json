@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/tonodb",
             "rdf:type": "prov:Entity",
-            "dc:created": "68d3d60",
+            "dc:created": "28fd651",
             "dc:title": "Repository"
         },
         {
@@ -26,7 +26,7 @@
         {
             "rdf:about": "git@github.com:uzling/tono_db",
             "rdf:type": "prov:Entity",
-            "dc:created": "3a021c7",
+            "dc:created": "b2cf13d",
             "dc:title": "Repository"
         }
     ],
@@ -143,11 +143,47 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "OnsetManner"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "OnsetVoicing"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "OnsetAspiration"
+                    },
+                    {
+                        "datatype": "string",
                         "name": "Coda"
                     },
                     {
                         "datatype": "string",
+                        "name": "CodaPhonation"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CodaGlottal"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CodaManner"
+                    },
+                    {
+                        "datatype": "string",
                         "name": "Stress/quantity"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NucleusATR"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NucleusLength"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "NucleusHight"
                     },
                     {
                         "datatype": "string",
