@@ -10,7 +10,7 @@ property | value
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF StructureDataset](http://cldf.clld.org/v1.0/terms.rdf#StructureDataset)
 [dc:identifier](http://purl.org/dc/terms/identifier) | https://github.com/uzling/tono_db
 [dcat:accessURL](http://www.w3.org/ns/dcat#accessURL) | git@github.com:cldf-datasets/tonodb
-[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:cldf-datasets/tonodb/tree/6242053">git@github.com:cldf-datasets/tonodb 6242053</a></li><li><a href="git@github.com:glottolog/glottolog/tree/f6531fcec3">Glottolog v4.4-20-gf6531fcec3</a></li><li><a href="git@github.com:uzling/tono_db/tree/3973dfc">git@github.com:uzling/tono_db 3973dfc</a></li></ol>
+[prov:wasDerivedFrom](http://www.w3.org/ns/prov#wasDerivedFrom) | <ol><li><a href="git@github.com:cldf-datasets/tonodb/tree/1444b0a">git@github.com:cldf-datasets/tonodb 1444b0a</a></li><li><a href="git@github.com:glottolog/glottolog/tree/f6531fcec3">Glottolog v4.4-20-gf6531fcec3</a></li><li><a href="git@github.com:uzling/tono_db/tree/cc5df9e">git@github.com:uzling/tono_db cc5df9e</a></li></ol>
 [prov:wasGeneratedBy](http://www.w3.org/ns/prov#wasGeneratedBy) | <ol><li><strong>python</strong>: 3.8.13</li><li><strong>python-packages</strong>: <a href="./requirements.txt">requirements.txt</a></li></ol>
 [rdf:ID](http://www.w3.org/1999/02/22-rdf-syntax-ns#ID) | tonodb
 [rdf:type](http://www.w3.org/1999/02/22-rdf-syntax-ns#type) | http://www.w3.org/ns/dcat#Distribution
@@ -65,7 +65,7 @@ Name/Property | Datatype | Description
 property | value
  --- | ---
 [dc:conformsTo](http://purl.org/dc/terms/conformsTo) | [CLDF ParameterTable](http://cldf.clld.org/v1.0/terms.rdf#ParameterTable)
-[dc:extent](http://purl.org/dc/terms/extent) | 37
+[dc:extent](http://purl.org/dc/terms/extent) | 36
 
 
 ### Columns
