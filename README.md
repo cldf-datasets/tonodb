@@ -1,10 +1,15 @@
 # tonodb
 
-The data here are from work by:
+The data here were created and compiled by:
 
 - Lilja Sæbø (University of Oxford)
 - Eitan Grossman (Hebrew University of Jerusalem)
 - Steven Moran (University of Neuchâtel)
+
+with technical assistance by:
+
+- Zifan Jian (University of Zurich)
+- Robert Forkel (Max Planck Institute for Evolutionary Anthropology)
 
 and for the forthcoming talk and paper:
 
