@@ -1,20 +1,21 @@
 # tonodb
 
-## How to cite
+The data here are from work by:
 
-If you use these data please cite
-- the original source
-  > Hammarström, Harald & Forkel, Robert & Haspelmath, Martin & Bank, Sebastian. 2020. Glottolog 4.3. Jena: Max Planck Institute for the Science of Human History. https://doi.org/10.5281/zenodo.3754591 (Available online at http://glottolog.org, Accessed on 2020-09-30.)
-- the derived dataset using the DOI of the [particular released version](../../releases/) you were using
+- Lilja Sæbø (University of Oxford)
+- Eitan Grossman (Hebrew University of Jerusalem)
+- Steven Moran (University of Neuchâtel)
 
-## Description
+and for the forthcoming talk and paper:
 
+A Database of Tonogenetic Events (DTE) and what it can tell us about tonogenesis
 
-Available online at https://github.com/uzling/tono_db
+Abstract:
 
+- https://www.uni-heidelberg.de/md/slav/forschung/tagungen/ichl26/ichl26_w11.6.pdf
 
-## CLDF Datasets
+For the 26th International Conference on Historical Linguistics:
 
-The following CLDF datasets are available in [cldf](cldf):
+- https://www.slav.uni-heidelberg.de/forschung/tagungen/ichl26/index.html
 
-- CLDF [StructureDataset](https://github.com/cldf/cldf/tree/master/modules/StructureDataset) at [cldf/StructureDataset-metadata.json](cldf/StructureDataset-metadata.json)
+The data is provided in [CLDF](https://github.com/cldf/cldf).
