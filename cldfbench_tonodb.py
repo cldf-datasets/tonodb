@@ -31,7 +31,8 @@ class Dataset(BaseDataset):
     dir = pathlib.Path(__file__).parent
     id = "tonodb"
     # valueTableProperties = ['LanguageVariety', 'TriggeringContext' , 'Extra', 'Height', 'Contour', 'Phonation', 'ToneDescription', 'ChaoNumerals', 'Notes', 'EffectOnPitch', 'ResultantSystem', 'Type', 'Onset', 'Coda', 'Stress/quantity', 'Wordtype', 'long vowel']
-    valueTableProperties = ['LanguageVariety', 'TriggeringContext', 'Extra', 'Height', 'Contour', 'Phonation', 'ToneDescription' , 'ChaoNumerals', 'Notes', 'EffectOnPitch', 'ResultantSystem', 'Type', 'Onset', 'OnsetManner', 'OnsetVoicing', 'OnsetAspiration', 'Coda', 'CodaPhonation', 'CodaGlottal', 'CodaManner', 'Stress/quantity', 'NucleusATR', 'NucleusLength', 'NucleusHeight', 'Wordtype', 'Nucleus']
+    # valueTableProperties = ['LanguageVariety', 'TriggeringContext', 'Extra', 'Height', 'Contour', 'Phonation', 'ToneDescription' , 'ChaoNumerals', 'Notes', 'EffectOnPitch', 'ResultantSystem', 'Type', 'Onset', 'OnsetManner', 'OnsetVoicing', 'OnsetAspiration', 'Coda', 'CodaPhonation', 'CodaGlottal', 'CodaManner', 'Stress/quantity', 'NucleusATR', 'NucleusLength', 'NucleusHeight', 'Wordtype', 'Nucleus']
+    valueTableProperties = ['LanguageVariety', 'Ordering', 'Ongoing', 'TriggeringContext', 'Tone ', 'Extra', 'Height', 'Contour', 'Phonation', 'ToneDescription', 'ChaoNumerals', 'RestrictedEnviroment', 'Notes', 'EffectOnPitch', 'ResultantSystem', 'Type', 'Onset', 'OnsetManner', 'OnsetVoicing', 'OnsetAspiration', 'Coda', 'CodaPhonation', 'CodaGlottal', 'CodaManner', 'Stress', 'SyllableCount', 'NucleusATR', 'NucleusLength', 'NucleusHeight', 'Nucleus']
     languageTableProperties = ['family_id', 'parent_id', 'bookkeeping', 'level', 'description', 'markup_description', 'child_family_count', 'child_language_count', 'child_dialect_count', 'country_ids']
     inventoryTableProperties = ['LanguageVariety', 'Family', 'Area', 'Notes', 'BibTex']
 
@@ -112,7 +113,7 @@ class Dataset(BaseDataset):
             args.writer.objects['ValueTable'].append({
                 'ID': str(counter),
                 'Inventory_ID': row['ID'],
-                'Language_ID': indexToLanguageID[row['ID']],
+                'Language_ID': indexToLanguageID[row['ID']] if row['ID'] in indexToLanguageID else None,
                 'Parameter_ID': tone_id,
                 'Value': tone,
                 **{ k: row[k] for k in self.valueTableProperties}

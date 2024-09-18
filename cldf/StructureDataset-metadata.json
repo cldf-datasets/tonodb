@@ -14,7 +14,7 @@
         {
             "rdf:about": "git@github.com:cldf-datasets/tonodb",
             "rdf:type": "prov:Entity",
-            "dc:created": "1444b0a",
+            "dc:created": "f49e8b6",
             "dc:title": "Repository"
         },
         {
@@ -26,7 +26,7 @@
         {
             "rdf:about": "git@github.com:uzling/tono_db",
             "rdf:type": "prov:Entity",
-            "dc:created": "cc5df9e",
+            "dc:created": "17a1715",
             "dc:title": "Repository"
         }
     ],
@@ -45,7 +45,7 @@
     "tables": [
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ValueTable",
-            "dc:extent": 250,
+            "dc:extent": 259,
             "tableSchema": {
                 "columns": [
                     {
@@ -95,7 +95,19 @@
                     },
                     {
                         "datatype": "string",
+                        "name": "Ordering"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Ongoing"
+                    },
+                    {
+                        "datatype": "string",
                         "name": "TriggeringContext"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Tone "
                     },
                     {
                         "datatype": "string",
@@ -120,6 +132,10 @@
                     {
                         "datatype": "string",
                         "name": "ChaoNumerals"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RestrictedEnviroment"
                     },
                     {
                         "datatype": "string",
@@ -171,7 +187,11 @@
                     },
                     {
                         "datatype": "string",
-                        "name": "Stress/quantity"
+                        "name": "Stress"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SyllableCount"
                     },
                     {
                         "datatype": "string",
@@ -184,10 +204,6 @@
                     {
                         "datatype": "string",
                         "name": "NucleusHeight"
-                    },
-                    {
-                        "datatype": "string",
-                        "name": "Wordtype"
                     },
                     {
                         "datatype": "string",
@@ -248,7 +264,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ParameterTable",
-            "dc:extent": 36,
+            "dc:extent": 38,
             "tableSchema": {
                 "columns": [
                     {
@@ -275,7 +291,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
-            "dc:extent": 96,
+            "dc:extent": 97,
             "tableSchema": {
                 "columns": [
                     {
@@ -387,7 +403,7 @@
         },
         {
             "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ContributionTable",
-            "dc:extent": 102,
+            "dc:extent": 104,
             "tableSchema": {
                 "columns": [
                     {
