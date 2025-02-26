@@ -11,16 +11,16 @@ with technical assistance by:
 - Zifan Jian (University of Zurich)
 - Robert Forkel (Max Planck Institute for Evolutionary Anthropology)
 
-and for the forthcoming talk and paper:
-
-A Database of Tonogenetic Events (DTE) and what it can tell us about tonogenesis
+The results of this study were presented at the [26th International Conference on Historical Linguistics (ICHL 26)](https://www.slav.uni-heidelberg.de/forschung/tagungen/ichl26/index.html) in Heidelberg, Germany, in 2023, for the presentation: A Database of Tonogenetic Events (DTE) and what it can tell us about tonogenesis.
 
 Abstract:
 
 - https://www.uni-heidelberg.de/md/slav/forschung/tagungen/ichl26/ichl26_w11.6.pdf
 
-For the 26th International Conference on Historical Linguistics:
+The data is provided here in the [CLDF format](https://github.com/cldf/cldf).
 
-- https://www.slav.uni-heidelberg.de/forschung/tagungen/ichl26/index.html
+The peer-reivewed paper, "Tonogenesis: a diachronic typology", is accepted to *Diachronica*.
 
-The data is provided in [CLDF](https://github.com/cldf/cldf).
+Supplementary materials are available online:
+
+* https://github.com/bambooforest/tono_db
