@@ -11,7 +11,11 @@ with technical assistance by:
 - Zifan Jian (University of Zurich)
 - Robert Forkel (Max Planck Institute for Evolutionary Anthropology)
 
-The results of this study were presented at the [26th International Conference on Historical Linguistics (ICHL 26)](https://www.slav.uni-heidelberg.de/forschung/tagungen/ichl26/index.html) in Heidelberg, Germany, in 2023, for the presentation: A Database of Tonogenetic Events (DTE) and what it can tell us about tonogenesis.
+The paper is published as:
+
+>>> Sæbø, Lilja Maria, Eitan Grossman and Steven Moran. 2025. Tonogenesis: a diachronic typology. Diachronica, 42(3–4), 451–478. [https://doi.org/10.1075/dia.24022.sae](https://doi.org/10.1075/dia.24022.sae).
+
+The results of this study were also presented at the [26th International Conference on Historical Linguistics (ICHL 26)](https://www.slav.uni-heidelberg.de/forschung/tagungen/ichl26/index.html) in Heidelberg, Germany, in 2023, for the presentation: A Database of Tonogenetic Events (DTE) and what it can tell us about tonogenesis.
 
 Abstract:
 
